@@ -3,7 +3,7 @@ Contributors: marcdk
 Tags: comments, reply, threaded
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 1.4
+Stable tag: 1.4.1
 
 Adds a reply button after every 2nd level thread with jQuery.
 
