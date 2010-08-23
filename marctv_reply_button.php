@@ -3,7 +3,7 @@
   Plugin Name: MarcTV Reply Button
   Plugin URI: http://wordpress.org/extend/plugins/marctv-reply-button/
   Description: Adds a reply button after every 2nd level thread with jQuery. Works only with threaded comment 2nd level settings.
-  Version: 1.4.1
+  Version: 1.5
   Author: Marc Tönsing
   Author URI: http://www.marctv.de
   License: GPL2
@@ -20,5 +20,4 @@ if ( !is_admin() ) {
         array("jquery"), "1.0", 1
     );
 }
-
 ?>

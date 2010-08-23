@@ -3,13 +3,13 @@ Contributors: marcdk
 Tags: comments, reply, threaded
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 1.4.1
+Stable tag: 1.5
 
 Adds a reply button after every 2nd level thread with jQuery.
 
 == Description ==
 
-Description: Adds a reply button after every 2nd level thread with the magic of jQuery. Works only wih threaded comment 2nd level settings.
+Description: Adds a reply button after every 2nd level thread with the magic of jQuery. Works only with threaded comment 2nd level settings.
 
 == Installation ==
 
@@ -42,6 +42,11 @@ Because needed a simple plugin to do this job and decided to do it on my own.
 = 1.4 =
 
 * fixed wording
+
+= 1.5 =
+
+* fixed wording and added better screenshot
+
 
 == Screenshots ==
 
