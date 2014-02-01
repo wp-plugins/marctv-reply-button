@@ -1,9 +1,9 @@
-=== MarcTV Reply Button ===
+=== MarcTV Comment Reply Button ===
 Contributors: marcdk
 Tags: comments, reply, threaded, marctv
 Requires at least: 3.0
-Tested up to: 3.0
-Stable tag: 1.5.1
+Tested up to: 3.8.1
+Stable tag: 1.6
 
 Adds a reply button after every 2nd level thread with jQuery.
 
@@ -50,6 +50,10 @@ Because needed a simple plugin to do this job and decided to do it on my own.
 = 1.5.1 =
 
 * added new plugin homepage
+
+= 1.6 = 
+
+* Fixed enqueue_scripts debug message.
 
 
 == Screenshots ==
