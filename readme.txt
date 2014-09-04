@@ -1,8 +1,8 @@
-=== MarcTV Comment Reply Button ===
+=== MarcTV Comment Thread Reply Button ===
 Contributors: marcdk
 Tags: comments, reply, threaded, marctv
 Requires at least: 3.0
-Tested up to: 3.8.1
+Tested up to: 4.0
 Stable tag: 1.7
 
 == Description ==
