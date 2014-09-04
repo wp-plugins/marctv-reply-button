@@ -1,9 +1,10 @@
-(function ($) {
-    $(document).ready(function($) {
-        $('.commentlist > li > div .reply').each(function() {
-            var reply = this;
-            var lastchild = $(this).parent().parent().children('.children').children(":last");
-            $(reply).clone().appendTo(lastchild);
-        });
+(function($) {
+  $(document).ready(function($) {
+    $('.commentlist > li > div .reply').each(function() {
+      var reply = this;
+      var lastchild = $(reply).parent().parent().children('.children').children(":last");
+      var lastid = ($(reply).parent().parent().children('.children').children(":last").attr("id").replace('li-comment-', ''));
+      $(reply).clone().children('a').attr('onclick', $(reply).children('a').attr('onclick').replace(/comment\-(\d+)/g, 'comment-' + lastid)).appendTo(lastchild);
     });
+  });
 })(jQuery);
