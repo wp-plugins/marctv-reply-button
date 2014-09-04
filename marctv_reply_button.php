@@ -3,7 +3,7 @@
   Plugin Name: MarcTV Reply Button
   Plugin URI: http://www.marctv.de/blog/marctv-wordpress-plugins/
   Description: Places an additional reply button at the end of the comment thread. 
-  Version: 1.7.1
+  Version: 1.7.2
   Author: MarcDK
   Author URI: http://www.marctv.de
   License: GPL2

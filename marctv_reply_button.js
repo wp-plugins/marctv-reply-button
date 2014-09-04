@@ -5,9 +5,11 @@
       var lastchild = $(reply).parent().parent().children('.children').children(":last");
       var lastidstring = ($(reply).parent().parent().children('.children').children(":last").attr("id"));
 
-      if (lastidstring !== undefined) {
+      if (lastidstring !== undefined && $(reply).children('a').attr('onclick') !== undefined) {
         var lastid = lastidstring.replace('li-comment-', '');
-        $(reply).clone().children('a').attr('onclick', $(reply).children('a').attr('onclick').replace(/comment\-(\d+)/g, 'comment-' + lastid)).appendTo(lastchild);
+        var newtarget = $(reply).children('a').attr('onclick').replace(/comment\-(\d+)/g, 'comment-' + lastid);
+        
+        $(reply).clone().children('a').attr('onclick', newtarget).appendTo(lastchild);
       }
     });
   });

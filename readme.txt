@@ -3,7 +3,7 @@ Contributors: marcdk
 Tags: comments, reply, threaded, marctv
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.7.1
+Stable tag: 1.7.2
 
 == Description ==
 
@@ -22,6 +22,9 @@ Make sure that you have 2nd level threads enabled.
 Because needed a simple plugin to do this job and decided to do it on my own.
 
 == Changelog ==
+
+= 1.7.2 =
+* Fixed bug when comments were closed. 
 
 = 1.7.1 =
 * Fixed stupid bug for comments with no replies. 
