@@ -3,9 +3,7 @@ Contributors: marcdk
 Tags: comments, reply, threaded, marctv
 Requires at least: 3.0
 Tested up to: 3.8.1
-Stable tag: 1.6
-
-Adds a reply button after every 2nd level thread with jQuery.
+Stable tag: 1.7
 
 == Description ==
 
@@ -23,37 +21,41 @@ Because needed a simple plugin to do this job and decided to do it on my own.
 
 == Changelog ==
 
-= 1.0 =
+= 1.7 =
+* Response form now appears bellow clicked comment. Finally. 
 
-* First attempt to submit my plugin
+= 1.6 = 
+* Fixed enqueue_scripts debug message.
 
-= 1.1 =
 
-* fixed paths to plugin directory
+= 1.5.1 =
+* added new plugin homepage
 
-= 1.2 =
+= 1.5 =
+* fixed wording and added better screenshot
 
+= 1.4 =
 * fixed wording
 
 = 1.3 =
-
 * fixed wording
 
-= 1.4 =
-
+= 1.2 =
 * fixed wording
 
-= 1.5 =
+= 1.1 =
+* fixed paths to plugin directory
 
-* fixed wording and added better screenshot
+= 1.0 =
+* First attempt to submit my plugin
 
-= 1.5.1 =
 
-* added new plugin homepage
 
-= 1.6 = 
 
-* Fixed enqueue_scripts debug message.
+
+
+
+
 
 
 == Screenshots ==
