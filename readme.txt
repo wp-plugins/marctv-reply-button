@@ -3,7 +3,7 @@ Contributors: marcdk
 Tags: comments, reply, threaded, marctv
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.7
+Stable tag: 1.7.1
 
 == Description ==
 
@@ -13,6 +13,8 @@ Description: Adds a reply button after every 2nd level thread with the magic of 
 
 Upload the "marctv-reply-button" folder into the plugins folder of your blog, Activate it. You're done!
 
+Make sure that you have 2nd level threads enabled. 
+
 == Frequently Asked Questions ==
 
 = Why did you do this? =
@@ -20,6 +22,9 @@ Upload the "marctv-reply-button" folder into the plugins folder of your blog, Ac
 Because needed a simple plugin to do this job and decided to do it on my own.
 
 == Changelog ==
+
+= 1.7.1 =
+* Fixed stupid bug for comments with no replies. 
 
 = 1.7 =
 * Response form now appears bellow clicked comment. Finally. 
