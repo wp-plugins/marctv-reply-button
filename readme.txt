@@ -1,9 +1,9 @@
 === MarcTV Comment Thread Reply Button ===
 Contributors: marcdk
-Tags: comments, reply, threaded, marctv
+Tags: comments, reply, threaded, marctv, twentyfourteen
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.7.2
+Stable tag: 1.8
 
 == Description ==
 
@@ -22,6 +22,10 @@ Make sure that you have 2nd level threads enabled.
 Because needed a simple plugin to do this job and decided to do it on my own.
 
 == Changelog ==
+
+= 1.8 =
+* Fixed wrong position of reply button. It is now nested in the .reply div. 
+* Added compatibility with twentyfourteen theme.
 
 = 1.7.2 =
 * Fixed bug when comments were closed. 
